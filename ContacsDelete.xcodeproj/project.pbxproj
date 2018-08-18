@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1606E47C211F3EE70027A8B0 /* SameContactPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1606E47B211F3EE60027A8B0 /* SameContactPhone.swift */; };
+		1606E47E211F46390027A8B0 /* NoNumberContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1606E47D211F46390027A8B0 /* NoNumberContact.swift */; };
+		16129F8B2124AC7A00A9A14D /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16129F8A2124AC7A00A9A14D /* Password.swift */; };
+		16129F8D2124BB6800A9A14D /* UIview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16129F8C2124BB6800A9A14D /* UIview.swift */; };
+		16146623211396F30032B04C /* PRIMETIME.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 161466222113964E0032B04C /* PRIMETIME.ttf */; };
+		162392422115CD8100867BC5 /* SpinnerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162392412115CD8100867BC5 /* SpinnerExtension.swift */; };
+		162B2919210F961F00889251 /* CreatedContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B2918210F961F00889251 /* CreatedContact.swift */; };
+		163380A621220EAF007728A2 /* NoNameContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163380A521220EAF007728A2 /* NoNameContact.swift */; };
+		163380A821221168007728A2 /* NoNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163380A721221168007728A2 /* NoNameTableViewController.swift */; };
+		16483E65210E26A1008DE344 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16483E64210E26A1008DE344 /* PasswordViewController.swift */; };
+		164D0DB8211C7FF100D2EEC9 /* SamePhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D0DB7211C7FF100D2EEC9 /* SamePhoneTableViewController.swift */; };
+		164D0DBA211C800E00D2EEC9 /* SameNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D0DB9211C800E00D2EEC9 /* SameNameTableViewController.swift */; };
+		164D0DBC211C997700D2EEC9 /* SameContactName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D0DBB211C997700D2EEC9 /* SameContactName.swift */; };
+		165BC823210F1F1B008378B5 /* SecretContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BC822210F1F1B008378B5 /* SecretContactViewController.swift */; };
+		1676703321247E0300C3B34B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1676703221247E0300C3B34B /* RoundedButton.swift */; };
 		167A408821037D0400544163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167A408721037D0400544163 /* AppDelegate.swift */; };
-		167A408A21037D0400544163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167A408921037D0400544163 /* ViewController.swift */; };
 		167A408D21037D0400544163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167A408B21037D0400544163 /* Main.storyboard */; };
 		167A408F21037D0800544163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167A408E21037D0800544163 /* Assets.xcassets */; };
 		167A409221037D0800544163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167A409021037D0800544163 /* LaunchScreen.storyboard */; };
+		167A409E21037E6900544163 /* FtechContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167A409D21037E6900544163 /* FtechContact.swift */; };
+		167B716B211DBABC0082DA04 /* DetailSameNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167B716A211DBABC0082DA04 /* DetailSameNameTableViewController.swift */; };
+		169B455E210458A400D99AE4 /* ContactDeleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */; };
+		16B188C02122C73C009C95D0 /* SameContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */; };
+		16B188C22122C7C5009C95D0 /* SameContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B188C12122C7C5009C95D0 /* SameContact.swift */; };
+		16C3DE912122EA5800C5BCCB /* DetialSameContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */; };
+		16D1F04D212549210099D35B /* CustomTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1F04C212549210099D35B /* CustomTextFiled.swift */; };
+		16E413922120494B001EC14C /* DetailSamePhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E413912120494A001EC14C /* DetailSamePhoneTableViewController.swift */; };
+		16F189D62116D2440054DBEF /* TabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F189D52116D2440054DBEF /* TabBarExtensions.swift */; };
+		16F189D82116F6AD0054DBEF /* UiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F189D72116F6AD0054DBEF /* UiViewController.swift */; };
+		16FB98CC2104C6B500CF8AD2 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB98CB2104C6B500CF8AD2 /* constants.swift */; };
+		16FF98F7211B464C0070B781 /* NoNumberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FF98F6211B464C0070B781 /* NoNumberTableViewController.swift */; };
+		E16E8C58E5DC62754C214954 /* Pods_ContacsDelete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74E67A1D11995997B03BB93 /* Pods_ContacsDelete.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1606E47B211F3EE60027A8B0 /* SameContactPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContactPhone.swift; sourceTree = "<group>"; };
+		1606E47D211F46390027A8B0 /* NoNumberContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNumberContact.swift; sourceTree = "<group>"; };
+		16129F8A2124AC7A00A9A14D /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		16129F8C2124BB6800A9A14D /* UIview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIview.swift; sourceTree = "<group>"; };
+		161466222113964E0032B04C /* PRIMETIME.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PRIMETIME.ttf; sourceTree = "<group>"; };
+		162392412115CD8100867BC5 /* SpinnerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerExtension.swift; sourceTree = "<group>"; };
+		162B2918210F961F00889251 /* CreatedContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedContact.swift; sourceTree = "<group>"; };
+		163380A521220EAF007728A2 /* NoNameContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNameContact.swift; sourceTree = "<group>"; };
+		163380A721221168007728A2 /* NoNameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNameTableViewController.swift; sourceTree = "<group>"; };
+		16483E64210E26A1008DE344 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		164D0DB7211C7FF100D2EEC9 /* SamePhoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamePhoneTableViewController.swift; sourceTree = "<group>"; };
+		164D0DB9211C800E00D2EEC9 /* SameNameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameNameTableViewController.swift; sourceTree = "<group>"; };
+		164D0DBB211C997700D2EEC9 /* SameContactName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContactName.swift; sourceTree = "<group>"; };
+		165BC822210F1F1B008378B5 /* SecretContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretContactViewController.swift; sourceTree = "<group>"; };
+		1676703221247E0300C3B34B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		167A408421037D0400544163 /* ContacsDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContacsDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		167A408721037D0400544163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		167A408921037D0400544163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		167A408C21037D0400544163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		167A408E21037D0800544163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		167A409121037D0800544163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		167A409321037D0800544163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167A409D21037E6900544163 /* FtechContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtechContact.swift; sourceTree = "<group>"; };
+		167B716A211DBABC0082DA04 /* DetailSameNameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSameNameTableViewController.swift; sourceTree = "<group>"; };
+		169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDeleteTableViewController.swift; sourceTree = "<group>"; };
+		16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContactTableViewController.swift; sourceTree = "<group>"; };
+		16B188C12122C7C5009C95D0 /* SameContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContact.swift; sourceTree = "<group>"; };
+		16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialSameContactTableViewController.swift; sourceTree = "<group>"; };
+		16D1F04C212549210099D35B /* CustomTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFiled.swift; sourceTree = "<group>"; };
+		16E413912120494A001EC14C /* DetailSamePhoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSamePhoneTableViewController.swift; sourceTree = "<group>"; };
+		16F189D52116D2440054DBEF /* TabBarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExtensions.swift; sourceTree = "<group>"; };
+		16F189D72116F6AD0054DBEF /* UiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewController.swift; sourceTree = "<group>"; };
+		16FB98CB2104C6B500CF8AD2 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		16FF98F6211B464C0070B781 /* NoNumberTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNumberTableViewController.swift; sourceTree = "<group>"; };
+		1BFFA16ECED48B14D154B15B /* Pods-ContacsDelete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContacsDelete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContacsDelete/Pods-ContacsDelete.debug.xcconfig"; sourceTree = "<group>"; };
+		CDEAE31FD8BF23EBA2F39F52 /* Pods-ContacsDelete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContacsDelete.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContacsDelete/Pods-ContacsDelete.release.xcconfig"; sourceTree = "<group>"; };
+		F74E67A1D11995997B03BB93 /* Pods_ContacsDelete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContacsDelete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +85,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16E8C58E5DC62754C214954 /* Pods_ContacsDelete.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162392402115CA0900867BC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				162392412115CD8100867BC5 /* SpinnerExtension.swift */,
+				16F189D52116D2440054DBEF /* TabBarExtensions.swift */,
+				16F189D72116F6AD0054DBEF /* UiViewController.swift */,
+				16129F8C2124BB6800A9A14D /* UIview.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		163BB2F7211246CB0040E289 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				161466222113964E0032B04C /* PRIMETIME.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		167A407B21037D0400544163 = {
 			isa = PBXGroup;
 			children = (
 				167A408621037D0400544163 /* ContacsDelete */,
 				167A408521037D0400544163 /* Products */,
+				5C42C49383CB6103FA3EB4B4 /* Pods */,
+				A9394B00C57743060D01A34D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +132,94 @@
 		167A408621037D0400544163 /* ContacsDelete */ = {
 			isa = PBXGroup;
 			children = (
+				162392402115CA0900867BC5 /* Extensions */,
+				163BB2F7211246CB0040E289 /* Font */,
+				16FB98CA2104C5C400CF8AD2 /* Uitilities */,
+				167A409C21037DFC00544163 /* Service */,
+				167A409921037D3700544163 /* Model */,
+				167A409A21037D5100544163 /* View */,
+				167A409B21037D6500544163 /* Controller */,
 				167A408721037D0400544163 /* AppDelegate.swift */,
-				167A408921037D0400544163 /* ViewController.swift */,
 				167A408B21037D0400544163 /* Main.storyboard */,
 				167A408E21037D0800544163 /* Assets.xcassets */,
 				167A409021037D0800544163 /* LaunchScreen.storyboard */,
 				167A409321037D0800544163 /* Info.plist */,
 			);
 			path = ContacsDelete;
+			sourceTree = "<group>";
+		};
+		167A409921037D3700544163 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				162B2918210F961F00889251 /* CreatedContact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		167A409A21037D5100544163 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				167A409D21037E6900544163 /* FtechContact.swift */,
+				164D0DBB211C997700D2EEC9 /* SameContactName.swift */,
+				1606E47B211F3EE60027A8B0 /* SameContactPhone.swift */,
+				1606E47D211F46390027A8B0 /* NoNumberContact.swift */,
+				163380A521220EAF007728A2 /* NoNameContact.swift */,
+				1676703221247E0300C3B34B /* RoundedButton.swift */,
+				16B188C12122C7C5009C95D0 /* SameContact.swift */,
+				16129F8A2124AC7A00A9A14D /* Password.swift */,
+				16D1F04C212549210099D35B /* CustomTextFiled.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		167A409B21037D6500544163 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */,
+				16483E64210E26A1008DE344 /* PasswordViewController.swift */,
+				165BC822210F1F1B008378B5 /* SecretContactViewController.swift */,
+				16FF98F6211B464C0070B781 /* NoNumberTableViewController.swift */,
+				164D0DB7211C7FF100D2EEC9 /* SamePhoneTableViewController.swift */,
+				164D0DB9211C800E00D2EEC9 /* SameNameTableViewController.swift */,
+				167B716A211DBABC0082DA04 /* DetailSameNameTableViewController.swift */,
+				16E413912120494A001EC14C /* DetailSamePhoneTableViewController.swift */,
+				163380A721221168007728A2 /* NoNameTableViewController.swift */,
+				16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */,
+				16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		167A409C21037DFC00544163 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		16FB98CA2104C5C400CF8AD2 /* Uitilities */ = {
+			isa = PBXGroup;
+			children = (
+				16FB98CB2104C6B500CF8AD2 /* constants.swift */,
+			);
+			path = Uitilities;
+			sourceTree = "<group>";
+		};
+		5C42C49383CB6103FA3EB4B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BFFA16ECED48B14D154B15B /* Pods-ContacsDelete.debug.xcconfig */,
+				CDEAE31FD8BF23EBA2F39F52 /* Pods-ContacsDelete.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9394B00C57743060D01A34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F74E67A1D11995997B03BB93 /* Pods_ContacsDelete.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 167A409621037D0800544163 /* Build configuration list for PBXNativeTarget "ContacsDelete" */;
 			buildPhases = (
+				044DB34312ECF24B2EC622F4 /* [CP] Check Pods Manifest.lock */,
 				167A408021037D0400544163 /* Sources */,
 				167A408121037D0400544163 /* Frameworks */,
 				167A408221037D0400544163 /* Resources */,
+				C0502D11E7CCA02A11012EA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16146623211396F30032B04C /* PRIMETIME.ttf in Resources */,
 				167A409221037D0800544163 /* LaunchScreen.storyboard in Resources */,
 				167A408F21037D0800544163 /* Assets.xcassets in Resources */,
 				167A408D21037D0400544163 /* Main.storyboard in Resources */,
@@ -130,13 +291,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		044DB34312ECF24B2EC622F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContacsDelete-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0502D11E7CCA02A11012EA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ContacsDelete/Pods-ContacsDelete-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContacsDelete/Pods-ContacsDelete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		167A408021037D0400544163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167A408A21037D0400544163 /* ViewController.swift in Sources */,
+				16D1F04D212549210099D35B /* CustomTextFiled.swift in Sources */,
+				16E413922120494B001EC14C /* DetailSamePhoneTableViewController.swift in Sources */,
+				163380A821221168007728A2 /* NoNameTableViewController.swift in Sources */,
+				169B455E210458A400D99AE4 /* ContactDeleteTableViewController.swift in Sources */,
+				16129F8B2124AC7A00A9A14D /* Password.swift in Sources */,
+				1606E47E211F46390027A8B0 /* NoNumberContact.swift in Sources */,
+				165BC823210F1F1B008378B5 /* SecretContactViewController.swift in Sources */,
+				16F189D62116D2440054DBEF /* TabBarExtensions.swift in Sources */,
+				164D0DBC211C997700D2EEC9 /* SameContactName.swift in Sources */,
+				16129F8D2124BB6800A9A14D /* UIview.swift in Sources */,
+				167A409E21037E6900544163 /* FtechContact.swift in Sources */,
+				16C3DE912122EA5800C5BCCB /* DetialSameContactTableViewController.swift in Sources */,
+				163380A621220EAF007728A2 /* NoNameContact.swift in Sources */,
+				16483E65210E26A1008DE344 /* PasswordViewController.swift in Sources */,
+				162B2919210F961F00889251 /* CreatedContact.swift in Sources */,
+				164D0DBA211C800E00D2EEC9 /* SameNameTableViewController.swift in Sources */,
+				16FB98CC2104C6B500CF8AD2 /* constants.swift in Sources */,
+				1606E47C211F3EE70027A8B0 /* SameContactPhone.swift in Sources */,
+				167B716B211DBABC0082DA04 /* DetailSameNameTableViewController.swift in Sources */,
+				16FF98F7211B464C0070B781 /* NoNumberTableViewController.swift in Sources */,
+				164D0DB8211C7FF100D2EEC9 /* SamePhoneTableViewController.swift in Sources */,
+				16B188C22122C7C5009C95D0 /* SameContact.swift in Sources */,
+				1676703321247E0300C3B34B /* RoundedButton.swift in Sources */,
+				16B188C02122C73C009C95D0 /* SameContactTableViewController.swift in Sources */,
 				167A408821037D0400544163 /* AppDelegate.swift in Sources */,
+				16F189D82116F6AD0054DBEF /* UiViewController.swift in Sources */,
+				162392422115CD8100867BC5 /* SpinnerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,6 +503,7 @@
 		};
 		167A409721037D0800544163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFFA16ECED48B14D154B15B /* Pods-ContacsDelete.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +522,7 @@
 		};
 		167A409821037D0800544163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEAE31FD8BF23EBA2F39F52 /* Pods-ContacsDelete.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
