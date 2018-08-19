@@ -681,7 +681,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgI-Ly-N9q">
-                                <rect key="frame" x="92.333333333333314" y="190" width="190" height="35"/>
+                                <rect key="frame" x="92.666666666666686" y="190" width="190" height="35"/>
                                 <fontDescription key="fontDescription" name="PRIMETIME-Regular" family="PRIMETIME" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -799,7 +799,6 @@
                         <outlet property="confirmStackView" destination="GtK-NN-ULj" id="C1A-oB-Qii"/>
                         <outlet property="createdPasswordLabel" destination="XMl-VG-SDP" id="t7q-GC-uaT"/>
                         <outlet property="enterPassword" destination="UIP-Ge-HZP" id="tHz-Q7-sqR"/>
-                        <segue destination="sH0-BZ-Led" kind="presentation" identifier="goToSecretContact" modalTransitionStyle="flipHorizontal" id="F7j-OB-Dnb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FjO-Fg-N8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -807,42 +806,19 @@
             <point key="canvasLocation" x="3894" y="2014"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="65e-td-v9n">
+        <scene sceneID="P31-m0-cGJ">
             <objects>
-                <viewController id="sH0-BZ-Led" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DNS-K9-cZE">
+                <viewController id="y42-sr-drj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cGG-Tp-0is">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="65c-hV-5Lj">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="i5y-ml-Dji">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i5y-ml-Dji" id="aci-cg-3b8">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="65c-hV-5Lj" firstAttribute="leading" secondItem="fxZ-mG-VXB" secondAttribute="leading" id="4pr-Y8-VcK"/>
-                            <constraint firstItem="65c-hV-5Lj" firstAttribute="top" secondItem="DNS-K9-cZE" secondAttribute="top" id="75I-eH-6Lh"/>
-                            <constraint firstItem="65c-hV-5Lj" firstAttribute="trailing" secondItem="fxZ-mG-VXB" secondAttribute="trailing" id="iHe-Dq-Hmq"/>
-                            <constraint firstAttribute="bottom" secondItem="65c-hV-5Lj" secondAttribute="bottom" id="ktI-4X-KHV"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="fxZ-mG-VXB"/>
+                        <viewLayoutGuide key="safeArea" id="veo-lr-Llk"/>
                     </view>
-                    <navigationItem key="navigationItem" id="r3n-ct-F1O"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0df-Hj-nHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ktW-UZ-oT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4833" y="2014"/>
+            <point key="canvasLocation" x="4750" y="2010"/>
         </scene>
         <!--Same Contact-->
         <scene sceneID="4f3-wH-EzG">

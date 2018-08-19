@@ -134,8 +134,8 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
     }
     
     func deleteSelectedContact() {
-        spinner = self.created(typeSpinner: .ballRotateChase)
-        self.spinner.startAnimating()
+        spinner = self.created(typeSpinner: .ballPulse)
+        spinner.startAnimating()
         self.TrashButton.isEnabled = false
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.05) {
             FetchContact.shared.deleteContactSave(contacts: self.contactSelected) { (sucess) in
@@ -146,8 +146,8 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
                             self.sortedTitel()
                             self.tableView.reloadData()
                             self.tableView.tableFooterView = UIView()
-                            self.removeSpinner(spinner: self.spinner)
-                            self.WarningfinishAlert(titel: "Succeed", message: "\(self.contactSelected) contacts deleted", okButton: "Ok")
+                            self.spinner.stopAnimating()
+                            self.WarningfinishAlert(titel: "Succeed", message: "\(self.contactSelected.count) contacts deleted", okButton: "Ok")
                             self.contactSelected = []
                         }
                     })

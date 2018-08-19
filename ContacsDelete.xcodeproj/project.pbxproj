@@ -31,8 +31,12 @@
 		169B455E210458A400D99AE4 /* ContactDeleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */; };
 		16B188C02122C73C009C95D0 /* SameContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */; };
 		16B188C22122C7C5009C95D0 /* SameContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B188C12122C7C5009C95D0 /* SameContact.swift */; };
+		16B4FCF121283842006B9DE5 /* SercertContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4FCF021283842006B9DE5 /* SercertContactsViewController.swift */; };
 		16C3DE912122EA5800C5BCCB /* DetialSameContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */; };
 		16D1F04D212549210099D35B /* CustomTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1F04C212549210099D35B /* CustomTextFiled.swift */; };
+		16D5892121297E5D003F22AA /* HiddenContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5892021297E5D003F22AA /* HiddenContact.swift */; };
+		16D58924212980C9003F22AA /* HiddenContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D58922212980C9003F22AA /* HiddenContactCell.swift */; };
+		16D58925212980C9003F22AA /* HiddenContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D58923212980C9003F22AA /* HiddenContactCell.xib */; };
 		16E413922120494B001EC14C /* DetailSamePhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E413912120494A001EC14C /* DetailSamePhoneTableViewController.swift */; };
 		16F189D62116D2440054DBEF /* TabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F189D52116D2440054DBEF /* TabBarExtensions.swift */; };
 		16F189D82116F6AD0054DBEF /* UiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F189D72116F6AD0054DBEF /* UiViewController.swift */; };
@@ -68,8 +72,12 @@
 		169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDeleteTableViewController.swift; sourceTree = "<group>"; };
 		16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContactTableViewController.swift; sourceTree = "<group>"; };
 		16B188C12122C7C5009C95D0 /* SameContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContact.swift; sourceTree = "<group>"; };
+		16B4FCF021283842006B9DE5 /* SercertContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SercertContactsViewController.swift; sourceTree = "<group>"; };
 		16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialSameContactTableViewController.swift; sourceTree = "<group>"; };
 		16D1F04C212549210099D35B /* CustomTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFiled.swift; sourceTree = "<group>"; };
+		16D5892021297E5D003F22AA /* HiddenContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenContact.swift; sourceTree = "<group>"; };
+		16D58922212980C9003F22AA /* HiddenContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenContactCell.swift; sourceTree = "<group>"; };
+		16D58923212980C9003F22AA /* HiddenContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HiddenContactCell.xib; sourceTree = "<group>"; };
 		16E413912120494A001EC14C /* DetailSamePhoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSamePhoneTableViewController.swift; sourceTree = "<group>"; };
 		16F189D52116D2440054DBEF /* TabBarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExtensions.swift; sourceTree = "<group>"; };
 		16F189D72116F6AD0054DBEF /* UiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				162B2918210F961F00889251 /* CreatedContact.swift */,
+				16D5892021297E5D003F22AA /* HiddenContact.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +177,8 @@
 				16B188C12122C7C5009C95D0 /* SameContact.swift */,
 				16129F8A2124AC7A00A9A14D /* Password.swift */,
 				16D1F04C212549210099D35B /* CustomTextFiled.swift */,
+				16D58922212980C9003F22AA /* HiddenContactCell.swift */,
+				16D58923212980C9003F22AA /* HiddenContactCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +197,7 @@
 				163380A721221168007728A2 /* NoNameTableViewController.swift */,
 				16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */,
 				16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */,
+				16B4FCF021283842006B9DE5 /* SercertContactsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +297,7 @@
 				16146623211396F30032B04C /* PRIMETIME.ttf in Resources */,
 				167A409221037D0800544163 /* LaunchScreen.storyboard in Resources */,
 				167A408F21037D0800544163 /* Assets.xcassets in Resources */,
+				16D58925212980C9003F22AA /* HiddenContactCell.xib in Resources */,
 				167A408D21037D0400544163 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,10 +330,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ContacsDelete/Pods-ContacsDelete-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +352,7 @@
 			files = (
 				16D1F04D212549210099D35B /* CustomTextFiled.swift in Sources */,
 				16E413922120494B001EC14C /* DetailSamePhoneTableViewController.swift in Sources */,
+				16D5892121297E5D003F22AA /* HiddenContact.swift in Sources */,
 				163380A821221168007728A2 /* NoNameTableViewController.swift in Sources */,
 				169B455E210458A400D99AE4 /* ContactDeleteTableViewController.swift in Sources */,
 				16129F8B2124AC7A00A9A14D /* Password.swift in Sources */,
@@ -354,7 +370,9 @@
 				16FB98CC2104C6B500CF8AD2 /* constants.swift in Sources */,
 				1606E47C211F3EE70027A8B0 /* SameContactPhone.swift in Sources */,
 				167B716B211DBABC0082DA04 /* DetailSameNameTableViewController.swift in Sources */,
+				16D58924212980C9003F22AA /* HiddenContactCell.swift in Sources */,
 				16FF98F7211B464C0070B781 /* NoNumberTableViewController.swift in Sources */,
+				16B4FCF121283842006B9DE5 /* SercertContactsViewController.swift in Sources */,
 				164D0DB8211C7FF100D2EEC9 /* SamePhoneTableViewController.swift in Sources */,
 				16B188C22122C7C5009C95D0 /* SameContact.swift in Sources */,
 				1676703321247E0300C3B34B /* RoundedButton.swift in Sources */,
