@@ -1,0 +1,22 @@
+PODS:
+  - FoldingCell (3.0.5)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+
+DEPENDENCIES:
+  - FoldingCell
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FoldingCell
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  FoldingCell: 18daed710910823bc8457c3fba076a2408f21f0e
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+
+PODFILE CHECKSUM: d5068e0f27b8e7a527ea0c3fb8f5e89c14dadd1e
+
+COCOAPODS: 1.5.0

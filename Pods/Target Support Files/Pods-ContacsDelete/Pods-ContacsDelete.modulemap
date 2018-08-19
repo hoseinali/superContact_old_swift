@@ -1,0 +1,6 @@
+framework module Pods_ContacsDelete {
+  umbrella header "Pods-ContacsDelete-umbrella.h"
+
+  export *
+  module * { export * }
+}
