@@ -60,6 +60,7 @@ class NoNameTableViewController: UITableViewController {
             if sucess {
                 self.contacts = FetchContact.shared.contacts!
                 self.noNameContact = NoNameContact.shared.findNoNmae(self.contacts)
+                print(" contact :\(self.noNameContact.count)")
                 self.tableView.reloadData()
             }
         }
@@ -76,12 +77,14 @@ class NoNameTableViewController: UITableViewController {
 extension NoNameTableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        
+        print(" contact :\(self.noNameContact.count)")
+
         return 1
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        print(" contact :\(self.noNameContact.count)")
+
         return noNameContact.count
     }
     
@@ -89,13 +92,25 @@ extension NoNameTableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: NO_NAME_CELL, for: indexPath)
         let contact = noNameContact[indexPath.row]
+        print(" contact :\(self.noNameContact.count)")
+
         if contactSelected.contains(contact) {
             cell.accessoryType = .checkmark
         } else {
             cell.accessoryType = .none
         }
+        print(" contact1 :\(self.noNameContact[0])")
+
         cell.textLabel?.text = "No name"
-        cell.detailTextLabel?.text = contact.phoneNumbers[0].value.stringValue
+        if contact.phoneNumbers.count == 0 {
+            cell.detailTextLabel?.text = "No Phone"
+
+        } else {
+            
+            cell.detailTextLabel?.text = contact.phoneNumbers[0].value.stringValue
+
+        }
+
         return cell
     }
     

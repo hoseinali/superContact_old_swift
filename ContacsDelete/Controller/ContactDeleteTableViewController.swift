@@ -48,13 +48,13 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
             allindexpathTableView()
             CheckTrashButton()
             isAll = false
-            allOrNone.title = "None"
+            allOrNone.image = UIImage.init(named: "none")
         } else {
             contactSelected = []
             CheckTrashButton()
             tableView.reloadData()
             isAll = true
-            allOrNone.title = "All"
+            allOrNone.image = UIImage.init(named: "multiSelected")
         }
     }
 
@@ -64,14 +64,16 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
     func updateUI() {
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.sectionIndexColor = #colorLiteral(red: 1, green: 0.4464405179, blue: 0, alpha: 1)
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search Contact"
+        searchController.searchBar.setImage(UIImage(named: "SearchIcon"), for: .search, state: .normal)
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).attributedPlaceholder = NSAttributedString(string: "Search Contact", attributes: [NSAttributedStringKey.foregroundColor: UIColor.white])
         navigationItem.searchController = searchController
         definesPresentationContext = true
         tableView.tableFooterView = UIView()
-        selecetdContacts.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         TrashButton.isEnabled = false
+        navigationItem.hidesSearchBarWhenScrolling = false
         FetchContact.shared.fetchContactRequest { (sucess) in
             if sucess {
                 self.contacts = FetchContact.shared.contacts
@@ -193,17 +195,19 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let contactDict = contactDict else { return 0 }
         guard let titelSections = titelSections else { return 0 }
-        let titelSection = titelSections[section]
-        guard let contacts = contactDict[titelSection] else {return 0}
         if isFiltering() {
             return filterdContact.count
         }
+        let titelSection = titelSections[section]
+        guard let contacts = contactDict[titelSection] else {return 0}
+    
 
         return contacts.count
     }
     
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: DELETE_CONATACT_CELL , for: indexPath)
+        cell.tintColor = #colorLiteral(red: 1, green: 0.4945720997, blue: 0.07470703125, alpha: 1)
         guard let titelSections = titelSections else { return cell }
         guard let contactDict = contactDict else { return cell }
         var contact = CNContact()
@@ -241,12 +245,16 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
     
      func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         guard let titelSections = titelSections else { return nil }
+        if isFiltering() {
+           return nil
+            
+        }
         return titelSections[section]
     }
     
      func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header = view as! UITableViewHeaderFooterView
-        header.textLabel?.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        header.textLabel?.textColor = #colorLiteral(red: 1, green: 0.4464405179, blue: 0, alpha: 1)
         header.textLabel?.font = UIFont(name: FONT_TITEL, size: 20)!
     }
     

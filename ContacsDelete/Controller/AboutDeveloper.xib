@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PRIMETIME.ttf">
+            <string>PRIMETIME-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="About_Developer" customModule="ContacsDelete" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sng-4r-gXi">
+                    <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xTM-73-KNJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibz-0v-fTE">
+                    <rect key="frame" x="43.666666666666657" y="255.66666666666663" width="288" height="301"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tehranian Web" translatesAutoresizingMaskIntoConstraints="NO" id="Xun-2g-J8P">
+                            <rect key="frame" x="60" y="30.000000000000028" width="168" height="154"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="168" id="diB-lm-dc8"/>
+                                <constraint firstAttribute="height" constant="154" id="u6B-Cg-pGN"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="webSite" translatesAutoresizingMaskIntoConstraints="NO" id="zcX-Ub-toi">
+                            <rect key="frame" x="38.000000000000007" y="204.00000000000003" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="eeX-gy-bGz"/>
+                                <constraint firstAttribute="height" constant="20" id="sbS-1S-c98"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.tehranianweb.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whe-pL-ydh">
+                            <rect key="frame" x="66" y="204.33333333333334" width="173" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="173" id="8Em-Ov-aEU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Email" translatesAutoresizingMaskIntoConstraints="NO" id="3wS-IP-tnm">
+                            <rect key="frame" x="38.000000000000007" y="233.00000000000003" width="20" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="VSY-Og-gxv"/>
+                                <constraint firstAttribute="height" constant="16" id="lZz-r0-QAa"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info@tehranianweb.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7F-CF-LA3">
+                            <rect key="frame" x="66" y="232.00000000000003" width="173" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="173" id="pu0-fB-Fde"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Producer : Hosein ali alborzi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPb-eK-eKE">
+                            <rect key="frame" x="26.000000000000014" y="258" width="236.33333333333337" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="236.5" id="R8v-ql-fVp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="PRIMETIME-Regular" family="PRIMETIME" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="N7F-CF-LA3" firstAttribute="leading" secondItem="3wS-IP-tnm" secondAttribute="trailing" constant="8" id="7ea-BJ-vj6"/>
+                        <constraint firstItem="KPb-eK-eKE" firstAttribute="top" secondItem="N7F-CF-LA3" secondAttribute="bottom" constant="8" id="A2y-t2-ndL"/>
+                        <constraint firstItem="zcX-Ub-toi" firstAttribute="top" secondItem="ibz-0v-fTE" secondAttribute="top" constant="204" id="Bgr-Cv-WOm"/>
+                        <constraint firstItem="KPb-eK-eKE" firstAttribute="centerX" secondItem="ibz-0v-fTE" secondAttribute="centerX" id="KuS-Lt-4NP"/>
+                        <constraint firstAttribute="width" constant="288" id="MN6-7Z-dBZ"/>
+                        <constraint firstItem="3wS-IP-tnm" firstAttribute="centerY" secondItem="N7F-CF-LA3" secondAttribute="centerY" id="NoJ-OP-dmw"/>
+                        <constraint firstItem="N7F-CF-LA3" firstAttribute="top" secondItem="Whe-pL-ydh" secondAttribute="bottom" constant="9.5" id="X3p-cd-1Ho"/>
+                        <constraint firstAttribute="height" constant="301" id="Z99-qY-Fah"/>
+                        <constraint firstItem="3wS-IP-tnm" firstAttribute="trailing" secondItem="zcX-Ub-toi" secondAttribute="trailing" id="aSp-R1-JSJ"/>
+                        <constraint firstItem="zcX-Ub-toi" firstAttribute="leading" secondItem="ibz-0v-fTE" secondAttribute="leading" constant="38" id="geh-Tk-Iao"/>
+                        <constraint firstItem="Xun-2g-J8P" firstAttribute="top" secondItem="ibz-0v-fTE" secondAttribute="top" constant="30" id="huH-DQ-IhA"/>
+                        <constraint firstItem="Whe-pL-ydh" firstAttribute="top" secondItem="Xun-2g-J8P" secondAttribute="bottom" constant="20.5" id="kJx-xH-4Gy"/>
+                        <constraint firstItem="Xun-2g-J8P" firstAttribute="centerX" secondItem="ibz-0v-fTE" secondAttribute="centerX" id="ti3-LN-YM1"/>
+                        <constraint firstItem="zcX-Ub-toi" firstAttribute="centerY" secondItem="Whe-pL-ydh" secondAttribute="centerY" id="y1j-CP-Ryp"/>
+                        <constraint firstItem="Whe-pL-ydh" firstAttribute="leading" secondItem="zcX-Ub-toi" secondAttribute="trailing" constant="8" id="yGO-Gm-8eG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sng-4r-gXi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="48a-Uf-NXV"/>
+                <constraint firstItem="ibz-0v-fTE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FNC-F9-Wqq"/>
+                <constraint firstItem="sng-4r-gXi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="V4o-ET-xjC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="sng-4r-gXi" secondAttribute="bottom" id="hmO-6e-6dq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="sng-4r-gXi" secondAttribute="trailing" id="vzM-FZ-hdJ"/>
+                <constraint firstItem="ibz-0v-fTE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="yd0-fY-ZAQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Email" width="20" height="16"/>
+        <image name="Tehranian Web" width="168" height="154"/>
+        <image name="webSite" width="20" height="20"/>
+    </resources>
+</document>

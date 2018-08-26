@@ -66,5 +66,6 @@ class FetchContact {
         }
         completion(true)
     }
+    
 
 }

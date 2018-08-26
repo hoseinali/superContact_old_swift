@@ -97,8 +97,13 @@ extension NoNumberTableViewController {
         } else {
             cell.accessoryType = .none
         }
-        cell.textLabel?.text = FetchContact.shared.nameContact(contact: contact)
-        cell.detailTextLabel?.text = "No Phone"
+        let name = FetchContact.shared.nameContact(contact: contact)
+        if name.isEmpty {
+             cell.textLabel?.text = "No name"
+        } else {
+            cell.textLabel?.text = name
+        }
+        cell.detailTextLabel?.text = "No phone"
         return cell
     }
     

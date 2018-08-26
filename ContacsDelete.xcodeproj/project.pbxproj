@@ -20,7 +20,10 @@
 		164D0DB8211C7FF100D2EEC9 /* SamePhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D0DB7211C7FF100D2EEC9 /* SamePhoneTableViewController.swift */; };
 		164D0DBA211C800E00D2EEC9 /* SameNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D0DB9211C800E00D2EEC9 /* SameNameTableViewController.swift */; };
 		164D0DBC211C997700D2EEC9 /* SameContactName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D0DBB211C997700D2EEC9 /* SameContactName.swift */; };
-		165BC823210F1F1B008378B5 /* SecretContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BC822210F1F1B008378B5 /* SecretContactViewController.swift */; };
+		165BC823210F1F1B008378B5 /* PrivateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BC822210F1F1B008378B5 /* PrivateContactViewController.swift */; };
+		167260F2213194300070AA5A /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167260F0213194300070AA5A /* AddContactViewController.swift */; };
+		167260F3213194300070AA5A /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167260F1213194300070AA5A /* AddContactViewController.xib */; };
+		167260F52131A0180070AA5A /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167260F42131A0180070AA5A /* RoundedView.swift */; };
 		1676703321247E0300C3B34B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1676703221247E0300C3B34B /* RoundedButton.swift */; };
 		167A408821037D0400544163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167A408721037D0400544163 /* AppDelegate.swift */; };
 		167A408D21037D0400544163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167A408B21037D0400544163 /* Main.storyboard */; };
@@ -31,16 +34,17 @@
 		169B455E210458A400D99AE4 /* ContactDeleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */; };
 		16B188C02122C73C009C95D0 /* SameContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */; };
 		16B188C22122C7C5009C95D0 /* SameContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B188C12122C7C5009C95D0 /* SameContact.swift */; };
-		16B4FCF121283842006B9DE5 /* SercertContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4FCF021283842006B9DE5 /* SercertContactsViewController.swift */; };
+		16B7892421312D3F000B6E7A /* PVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7892321312D3E000B6E7A /* PVTableViewCell.swift */; };
 		16C3DE912122EA5800C5BCCB /* DetialSameContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */; };
 		16D1F04D212549210099D35B /* CustomTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1F04C212549210099D35B /* CustomTextFiled.swift */; };
-		16D5892121297E5D003F22AA /* HiddenContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5892021297E5D003F22AA /* HiddenContact.swift */; };
-		16D58924212980C9003F22AA /* HiddenContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D58922212980C9003F22AA /* HiddenContactCell.swift */; };
-		16D58925212980C9003F22AA /* HiddenContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D58923212980C9003F22AA /* HiddenContactCell.xib */; };
+		16D5892121297E5D003F22AA /* PrivateContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5892021297E5D003F22AA /* PrivateContact.swift */; };
 		16E413922120494B001EC14C /* DetailSamePhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E413912120494A001EC14C /* DetailSamePhoneTableViewController.swift */; };
+		16EA81D5213297530085970F /* AboutDeveloper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA81D3213297530085970F /* AboutDeveloper.swift */; };
+		16EA81D6213297530085970F /* AboutDeveloper.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16EA81D4213297530085970F /* AboutDeveloper.xib */; };
 		16F189D62116D2440054DBEF /* TabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F189D52116D2440054DBEF /* TabBarExtensions.swift */; };
 		16F189D82116F6AD0054DBEF /* UiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F189D72116F6AD0054DBEF /* UiViewController.swift */; };
 		16FB98CC2104C6B500CF8AD2 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB98CB2104C6B500CF8AD2 /* constants.swift */; };
+		16FE7DF2212F1A54005056C9 /* MenuContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE7DF1212F1A54005056C9 /* MenuContactViewController.swift */; };
 		16FF98F7211B464C0070B781 /* NoNumberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FF98F6211B464C0070B781 /* NoNumberTableViewController.swift */; };
 		E16E8C58E5DC62754C214954 /* Pods_ContacsDelete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74E67A1D11995997B03BB93 /* Pods_ContacsDelete.framework */; };
 /* End PBXBuildFile section */
@@ -59,7 +63,10 @@
 		164D0DB7211C7FF100D2EEC9 /* SamePhoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamePhoneTableViewController.swift; sourceTree = "<group>"; };
 		164D0DB9211C800E00D2EEC9 /* SameNameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameNameTableViewController.swift; sourceTree = "<group>"; };
 		164D0DBB211C997700D2EEC9 /* SameContactName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContactName.swift; sourceTree = "<group>"; };
-		165BC822210F1F1B008378B5 /* SecretContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretContactViewController.swift; sourceTree = "<group>"; };
+		165BC822210F1F1B008378B5 /* PrivateContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateContactViewController.swift; sourceTree = "<group>"; };
+		167260F0213194300070AA5A /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		167260F1213194300070AA5A /* AddContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddContactViewController.xib; sourceTree = "<group>"; };
+		167260F42131A0180070AA5A /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		1676703221247E0300C3B34B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		167A408421037D0400544163 /* ContacsDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContacsDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		167A408721037D0400544163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,16 +79,17 @@
 		169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDeleteTableViewController.swift; sourceTree = "<group>"; };
 		16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContactTableViewController.swift; sourceTree = "<group>"; };
 		16B188C12122C7C5009C95D0 /* SameContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameContact.swift; sourceTree = "<group>"; };
-		16B4FCF021283842006B9DE5 /* SercertContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SercertContactsViewController.swift; sourceTree = "<group>"; };
+		16B7892321312D3E000B6E7A /* PVTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVTableViewCell.swift; sourceTree = "<group>"; };
 		16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialSameContactTableViewController.swift; sourceTree = "<group>"; };
 		16D1F04C212549210099D35B /* CustomTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFiled.swift; sourceTree = "<group>"; };
-		16D5892021297E5D003F22AA /* HiddenContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenContact.swift; sourceTree = "<group>"; };
-		16D58922212980C9003F22AA /* HiddenContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenContactCell.swift; sourceTree = "<group>"; };
-		16D58923212980C9003F22AA /* HiddenContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HiddenContactCell.xib; sourceTree = "<group>"; };
+		16D5892021297E5D003F22AA /* PrivateContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateContact.swift; sourceTree = "<group>"; };
 		16E413912120494A001EC14C /* DetailSamePhoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSamePhoneTableViewController.swift; sourceTree = "<group>"; };
+		16EA81D3213297530085970F /* AboutDeveloper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDeveloper.swift; sourceTree = "<group>"; };
+		16EA81D4213297530085970F /* AboutDeveloper.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutDeveloper.xib; sourceTree = "<group>"; };
 		16F189D52116D2440054DBEF /* TabBarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExtensions.swift; sourceTree = "<group>"; };
 		16F189D72116F6AD0054DBEF /* UiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewController.swift; sourceTree = "<group>"; };
 		16FB98CB2104C6B500CF8AD2 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		16FE7DF1212F1A54005056C9 /* MenuContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContactViewController.swift; sourceTree = "<group>"; };
 		16FF98F6211B464C0070B781 /* NoNumberTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNumberTableViewController.swift; sourceTree = "<group>"; };
 		1BFFA16ECED48B14D154B15B /* Pods-ContacsDelete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContacsDelete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContacsDelete/Pods-ContacsDelete.debug.xcconfig"; sourceTree = "<group>"; };
 		CDEAE31FD8BF23EBA2F39F52 /* Pods-ContacsDelete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContacsDelete.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContacsDelete/Pods-ContacsDelete.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +151,6 @@
 				162392402115CA0900867BC5 /* Extensions */,
 				163BB2F7211246CB0040E289 /* Font */,
 				16FB98CA2104C5C400CF8AD2 /* Uitilities */,
-				167A409C21037DFC00544163 /* Service */,
 				167A409921037D3700544163 /* Model */,
 				167A409A21037D5100544163 /* View */,
 				167A409B21037D6500544163 /* Controller */,
@@ -160,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				162B2918210F961F00889251 /* CreatedContact.swift */,
-				16D5892021297E5D003F22AA /* HiddenContact.swift */,
+				16D5892021297E5D003F22AA /* PrivateContact.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,8 +184,8 @@
 				16B188C12122C7C5009C95D0 /* SameContact.swift */,
 				16129F8A2124AC7A00A9A14D /* Password.swift */,
 				16D1F04C212549210099D35B /* CustomTextFiled.swift */,
-				16D58922212980C9003F22AA /* HiddenContactCell.swift */,
-				16D58923212980C9003F22AA /* HiddenContactCell.xib */,
+				16B7892321312D3E000B6E7A /* PVTableViewCell.swift */,
+				167260F42131A0180070AA5A /* RoundedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,7 +195,7 @@
 			children = (
 				169B455D210458A400D99AE4 /* ContactDeleteTableViewController.swift */,
 				16483E64210E26A1008DE344 /* PasswordViewController.swift */,
-				165BC822210F1F1B008378B5 /* SecretContactViewController.swift */,
+				165BC822210F1F1B008378B5 /* PrivateContactViewController.swift */,
 				16FF98F6211B464C0070B781 /* NoNumberTableViewController.swift */,
 				164D0DB7211C7FF100D2EEC9 /* SamePhoneTableViewController.swift */,
 				164D0DB9211C800E00D2EEC9 /* SameNameTableViewController.swift */,
@@ -197,16 +204,13 @@
 				163380A721221168007728A2 /* NoNameTableViewController.swift */,
 				16B188BF2122C73C009C95D0 /* SameContactTableViewController.swift */,
 				16C3DE902122EA5800C5BCCB /* DetialSameContactTableViewController.swift */,
-				16B4FCF021283842006B9DE5 /* SercertContactsViewController.swift */,
+				16FE7DF1212F1A54005056C9 /* MenuContactViewController.swift */,
+				167260F0213194300070AA5A /* AddContactViewController.swift */,
+				167260F1213194300070AA5A /* AddContactViewController.xib */,
+				16EA81D3213297530085970F /* AboutDeveloper.swift */,
+				16EA81D4213297530085970F /* AboutDeveloper.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		167A409C21037DFC00544163 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		16FB98CA2104C5C400CF8AD2 /* Uitilities */ = {
@@ -297,8 +301,9 @@
 				16146623211396F30032B04C /* PRIMETIME.ttf in Resources */,
 				167A409221037D0800544163 /* LaunchScreen.storyboard in Resources */,
 				167A408F21037D0800544163 /* Assets.xcassets in Resources */,
-				16D58925212980C9003F22AA /* HiddenContactCell.xib in Resources */,
 				167A408D21037D0400544163 /* Main.storyboard in Resources */,
+				167260F3213194300070AA5A /* AddContactViewController.xib in Resources */,
+				16EA81D6213297530085970F /* AboutDeveloper.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,13 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D1F04D212549210099D35B /* CustomTextFiled.swift in Sources */,
+				16B7892421312D3F000B6E7A /* PVTableViewCell.swift in Sources */,
 				16E413922120494B001EC14C /* DetailSamePhoneTableViewController.swift in Sources */,
-				16D5892121297E5D003F22AA /* HiddenContact.swift in Sources */,
+				16D5892121297E5D003F22AA /* PrivateContact.swift in Sources */,
+				16FE7DF2212F1A54005056C9 /* MenuContactViewController.swift in Sources */,
 				163380A821221168007728A2 /* NoNameTableViewController.swift in Sources */,
 				169B455E210458A400D99AE4 /* ContactDeleteTableViewController.swift in Sources */,
 				16129F8B2124AC7A00A9A14D /* Password.swift in Sources */,
 				1606E47E211F46390027A8B0 /* NoNumberContact.swift in Sources */,
-				165BC823210F1F1B008378B5 /* SecretContactViewController.swift in Sources */,
+				165BC823210F1F1B008378B5 /* PrivateContactViewController.swift in Sources */,
+				16EA81D5213297530085970F /* AboutDeveloper.swift in Sources */,
 				16F189D62116D2440054DBEF /* TabBarExtensions.swift in Sources */,
 				164D0DBC211C997700D2EEC9 /* SameContactName.swift in Sources */,
 				16129F8D2124BB6800A9A14D /* UIview.swift in Sources */,
@@ -366,13 +374,13 @@
 				163380A621220EAF007728A2 /* NoNameContact.swift in Sources */,
 				16483E65210E26A1008DE344 /* PasswordViewController.swift in Sources */,
 				162B2919210F961F00889251 /* CreatedContact.swift in Sources */,
+				167260F2213194300070AA5A /* AddContactViewController.swift in Sources */,
 				164D0DBA211C800E00D2EEC9 /* SameNameTableViewController.swift in Sources */,
 				16FB98CC2104C6B500CF8AD2 /* constants.swift in Sources */,
 				1606E47C211F3EE70027A8B0 /* SameContactPhone.swift in Sources */,
 				167B716B211DBABC0082DA04 /* DetailSameNameTableViewController.swift in Sources */,
-				16D58924212980C9003F22AA /* HiddenContactCell.swift in Sources */,
 				16FF98F7211B464C0070B781 /* NoNumberTableViewController.swift in Sources */,
-				16B4FCF121283842006B9DE5 /* SercertContactsViewController.swift in Sources */,
+				167260F52131A0180070AA5A /* RoundedView.swift in Sources */,
 				164D0DB8211C7FF100D2EEC9 /* SamePhoneTableViewController.swift in Sources */,
 				16B188C22122C7C5009C95D0 /* SameContact.swift in Sources */,
 				1676703321247E0300C3B34B /* RoundedButton.swift in Sources */,

@@ -31,6 +31,33 @@ extension UIViewController {
         alert.view.tintColor = UIColor.red
         present(alert, animated: true, completion: nil)
     }
+    func addPopUpAboutUs() {
+        let aboutVc = AboutDeveloper()
+        self.addChildViewController(aboutVc)
+        aboutVc.view.frame = self.view.frame
+        self.view.addSubview(aboutVc.view)
+        aboutVc.didMove(toParentViewController: self)
+        
+    }
+    func showAnimate() {
+        self.view.transform = CGAffineTransform.init(scaleX: 1.3, y: 1.3)
+        self.view.alpha = 0.0
+        UIView.animate(withDuration: 0.25) {
+            self.view.alpha = 1.0
+            self.view.transform = CGAffineTransform.init(scaleX: 1.0, y: 1.0)
+        }
+    }
+    
+    func removeAnimate() {
+        UIView.animate(withDuration: 0.25, animations: {
+            self.view.transform = CGAffineTransform.init(scaleX: 1.3, y: 1.3)
+            self.view.alpha = 0.0
+        }) { (finished) in
+            if finished {
+                self.view.removeFromSuperview()
+            }
+        }
+    }
     
     
 }
