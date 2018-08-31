@@ -199,7 +199,7 @@
 		167A407B21037D0400544163 = {
 			isa = PBXGroup;
 			children = (
-				167A408621037D0400544163 /* SuperContact */,
+				167A408621037D0400544163 /* ContacsDelete */,
 				167A408521037D0400544163 /* Products */,
 				5C42C49383CB6103FA3EB4B4 /* Pods */,
 				A9394B00C57743060D01A34D /* Frameworks */,
@@ -214,7 +214,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		167A408621037D0400544163 /* SuperContact */ = {
+		167A408621037D0400544163 /* ContacsDelete */ = {
 			isa = PBXGroup;
 			children = (
 				162392402115CA0900867BC5 /* Extensions */,
@@ -229,7 +229,7 @@
 				167A409021037D0800544163 /* LaunchScreen.storyboard */,
 				167A409321037D0800544163 /* Info.plist */,
 			);
-			path = SuperContact;
+			path = ContacsDelete;
 			sourceTree = "<group>";
 		};
 		167A409921037D3700544163 /* Model */ = {
