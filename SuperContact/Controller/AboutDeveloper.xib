@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PRIMETIME.ttf">
+            <string>PRIMETIME-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="About_Developer" customModule="ContacsDelete" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNr-ym-YrH">
+                    <rect key="frame" x="16" y="34" width="288" height="301"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tehranian Web" translatesAutoresizingMaskIntoConstraints="NO" id="lmX-3u-Ffg">
+                            <rect key="frame" x="60" y="30" width="168" height="154"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="168" id="084-gu-k5J"/>
+                                <constraint firstAttribute="height" constant="154" id="way-mq-9LM"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="webSite" translatesAutoresizingMaskIntoConstraints="NO" id="YZa-Wu-MR6">
+                            <rect key="frame" x="38" y="204" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="GyG-eo-qEp"/>
+                                <constraint firstAttribute="width" constant="20" id="glV-O9-K8n"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.tehranianweb.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBF-9B-oSD">
+                            <rect key="frame" x="66" y="205" width="173" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="173" id="xNZ-88-UKy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Email" translatesAutoresizingMaskIntoConstraints="NO" id="peX-b3-PgA">
+                            <rect key="frame" x="38" y="233" width="20" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="E6U-nY-Fl0"/>
+                                <constraint firstAttribute="height" constant="16" id="yKf-Nh-U1p"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info@tehranianweb.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGS-4M-hui">
+                            <rect key="frame" x="66" y="232" width="173" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="173" id="yzM-Vh-n3n"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Producer : Hosein ali alborzi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeO-b9-w0Z">
+                            <rect key="frame" x="26" y="258" width="237" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="236.5" id="cRl-gy-op4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="PRIMETIME-Regular" family="PRIMETIME" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="peX-b3-PgA" firstAttribute="centerY" secondItem="YGS-4M-hui" secondAttribute="centerY" id="4dh-ZD-q0z"/>
+                        <constraint firstItem="YZa-Wu-MR6" firstAttribute="top" secondItem="cNr-ym-YrH" secondAttribute="top" constant="204" id="LXC-8x-awg"/>
+                        <constraint firstItem="zBF-9B-oSD" firstAttribute="top" secondItem="lmX-3u-Ffg" secondAttribute="bottom" constant="20.5" id="Mdz-rc-eBo"/>
+                        <constraint firstAttribute="height" constant="301" id="RgA-Mk-bSa"/>
+                        <constraint firstItem="lmX-3u-Ffg" firstAttribute="centerX" secondItem="cNr-ym-YrH" secondAttribute="centerX" id="VJ9-P5-laF"/>
+                        <constraint firstItem="YZa-Wu-MR6" firstAttribute="centerY" secondItem="zBF-9B-oSD" secondAttribute="centerY" id="Vq0-Mf-Ebt"/>
+                        <constraint firstAttribute="width" constant="288" id="dLp-i8-hq9"/>
+                        <constraint firstItem="zBF-9B-oSD" firstAttribute="leading" secondItem="YZa-Wu-MR6" secondAttribute="trailing" constant="8" id="m9y-aM-yo7"/>
+                        <constraint firstItem="peX-b3-PgA" firstAttribute="trailing" secondItem="YZa-Wu-MR6" secondAttribute="trailing" id="n5D-UX-SSb"/>
+                        <constraint firstItem="YZa-Wu-MR6" firstAttribute="leading" secondItem="cNr-ym-YrH" secondAttribute="leading" constant="38" id="qBV-LB-rcV"/>
+                        <constraint firstItem="lmX-3u-Ffg" firstAttribute="top" secondItem="cNr-ym-YrH" secondAttribute="top" constant="30" id="rQi-HG-NSC"/>
+                        <constraint firstItem="LeO-b9-w0Z" firstAttribute="top" secondItem="YGS-4M-hui" secondAttribute="bottom" constant="8" id="rm9-Ne-Tka"/>
+                        <constraint firstItem="YGS-4M-hui" firstAttribute="top" secondItem="zBF-9B-oSD" secondAttribute="bottom" constant="9.5" id="uJV-kN-NRU"/>
+                        <constraint firstItem="YGS-4M-hui" firstAttribute="leading" secondItem="peX-b3-PgA" secondAttribute="trailing" constant="8" id="vPq-rS-p93"/>
+                        <constraint firstItem="LeO-b9-w0Z" firstAttribute="centerX" secondItem="cNr-ym-YrH" secondAttribute="centerX" id="voo-1z-rGU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cNr-ym-YrH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="U1d-fE-iDs"/>
+                <constraint firstItem="cNr-ym-YrH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="exf-g4-Ja3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Email" width="20" height="16"/>
+        <image name="Tehranian Web" width="168" height="154"/>
+        <image name="webSite" width="20" height="20"/>
+    </resources>
+</document>
