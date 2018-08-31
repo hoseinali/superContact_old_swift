@@ -147,7 +147,7 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
                             self.sortedTitel()
                             self.tableView.reloadData()
                             self.tableView.tableFooterView = UIView()
-                           // self.spinner.stopAnimating()
+                            self.spinner.stopAnimating()
                             self.WarningfinishAlert(titel: "Succeed", message: "\(self.contactSelected.count) contacts deleted", okButton: "Ok")
                             self.contactSelected = []
                             self.indicator.stopAnimating()
