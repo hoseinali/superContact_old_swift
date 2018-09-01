@@ -61,7 +61,7 @@ class ContactDeleteTableViewController: UIViewController,UITableViewDelegate ,UI
     
     // MARK: - func
     func updateUI() {
-        spinner = self.created(typeSpinner: .ballBeat)
+        spinner = self.created(typeSpinner: .ballSpinFadeLoader)
         tableView.delegate = self
         tableView.dataSource = self
         tableView.sectionIndexColor = #colorLiteral(red: 1, green: 0.4464405179, blue: 0, alpha: 1)

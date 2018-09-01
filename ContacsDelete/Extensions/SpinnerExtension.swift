@@ -12,7 +12,7 @@ import NVActivityIndicatorView
 extension UIViewController {
     
     func created(typeSpinner:NVActivityIndicatorType) -> NVActivityIndicatorView {
-        let frames = CGRect.init(x: self.view.center.x, y: self.view.center.y, width: 80, height: 80)
+        let frames = CGRect.init(x: self.view.center.x, y: self.view.center.y, width: 90, height: 90)
         let spinner = NVActivityIndicatorView.init(frame: frames, type: typeSpinner, color: #colorLiteral(red: 0.1504255873, green: 0.1628690705, blue: 0.1809463608, alpha: 1), padding: 0)
         self.view.addSubview(spinner)
         spinner.translatesAutoresizingMaskIntoConstraints = false

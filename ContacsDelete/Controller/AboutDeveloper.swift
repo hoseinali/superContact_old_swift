@@ -29,6 +29,7 @@ class AboutDeveloper: UIViewController {
         showAnimate()
         let tapGeuster = UITapGestureRecognizer.init(target: self, action: #selector (dissmiss(_:)) )
         self.view.addGestureRecognizer(tapGeuster)
+        
     }
     
     @objc func dissmiss(_ sender: UITapGestureRecognizer) {
